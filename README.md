@@ -41,12 +41,6 @@ conda activate ESMAdam
 pip install -e .
 ```
 
-## Inference
-
-There are a few steps to follow before running the sampling: 
-Replace the esmfold.py file in the esm package with the one here. 
-```
-
 
 
 
