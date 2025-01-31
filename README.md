@@ -3,7 +3,7 @@
 
 # ESMAdam: a plug-and-play all-purpose protein ensemble generator
 
-<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
+<a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a><br>
 [![bioarXiv](https://www.biorxiv.org/sites/default/files/biorxiv_article.jpg)](https://www.biorxiv.org/content/10.1101/2025.01.19.633818v1)
 
 </div>
