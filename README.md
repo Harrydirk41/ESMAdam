@@ -21,15 +21,9 @@ ESMAdam addresses a wide range of ensemble generation tasks.
 <img src="assets/frame_plot_2-1.png" width="450"/>
 </p>
 
-The current model supports guiding the sampling process with end-to-end distance, radius of gyration, helix percent per residue.
-Additional, we provide preliminary models guiding with cryo-EM 2D density images:
-- End-to-end distance
-- Radius of gyration
-- Helix percent per residue with distance operator
-- RMSD w.r.t the folded structure
-- Cryo-EM 2D density images (preliminary)
-- Helix percent per residue with RMSD operator (in progress)
-- Beta percent per residue with RMSD operator (in progress)
+The model supports almost any protein ensemble generation task. In this repository we demonstrate a few shown in the paper, including
+ensemble generation with experiment constraint, CG-to-all-atom backmapping, protein-complex alternative binding mode discovery,
+and heterogeneous 3D structure reconstruction from cryo-EM images. Users are encouraged to replace the target function with your own!
 
 
 
