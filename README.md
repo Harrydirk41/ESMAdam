@@ -25,6 +25,28 @@ The model supports almost any protein ensemble generation task. In this reposito
 ensemble generation with experiment constraint, CG-to-all-atom backmapping, protein-complex alternative binding mode discovery,
 and heterogeneous 3D structure reconstruction from cryo-EM images. Users are encouraged to replace the target function with your own!
 
+## Installation
+We recommend following ESM official github link for the installation instruction: https://github.com/facebookresearch/esm. Otherwises,
+use the environment provided in this repository. (ESM installation is a bit tricky due to its use of openfold so I highly recommend building
+dependency from there)
+```sh
+git clone https://github.com/Harrydirk41/ESMAdam.git
+cd ESMAdam
+
+# Create conda environment.
+conda env create -f ESMAdam.yml
+conda activate ESMAdam
+
+# Support import as a package.
+pip install -e .
+```
+
+## Inference
+
+There are a few steps to follow before running the sampling: 
+Replace the esmfold.py file in the esm package with the one here. 
+```
+
 
 
 
