@@ -4,7 +4,7 @@
 # ESMAdam: a plug-and-play all-purpose protein ensemble generator
 
 <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-[![bioarXiv]([https://www.biorxiv.org/sites/default/files/biorxiv_article.jpg)](https://www.biorxiv.org/content/10.1101/2024.10.04.616517v1](https://www.biorxiv.org/content/10.1101/2025.01.19.633818v1))
+[![bioarXiv](https://www.biorxiv.org/sites/default/files/biorxiv_article.jpg)](https://www.biorxiv.org/content/10.1101/2025.01.19.633818v1)
 
 </div>
 
@@ -18,7 +18,7 @@ Using the ESMFold protein language model ESMFold and ADAM stochastic optimizatio
 ESMAdam addresses a wide range of ensemble generation tasks. 
 
 <p align="center">
-<img src="assets/diffusion_plot_6-1.png" width="450"/>
+<img src="assets/frame_plot_2-1.png" width="450"/>
 </p>
 
 The current model supports guiding the sampling process with end-to-end distance, radius of gyration, helix percent per residue.
